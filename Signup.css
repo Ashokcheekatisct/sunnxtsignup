@@ -1,0 +1,84 @@
+.main{
+    background-image:linear-gradient(360deg,transparent,rgba(180, 3, 3, 0.5)), url("./allmovies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    height: 200vh;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+h2{
+    color: rgb(4, 2, 37);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.child{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    background-color: rgba(170, 164, 160, 0.589);
+    height: 650px;
+    max-width: 400px;
+    opacity: 1.1;
+    left: 440px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px,25px,30px,rgba(180, 3, 3, 0.5);
+}
+input{
+    height: 6%;
+    width: 85%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(182, 18, 18);
+    border-radius: 5px;
+    
+}
+#fa{
+   position: relative;
+   right: 25px;
+   cursor: pointer;
+}
+.child>button{
+    text-align: start;
+    background-color: #d5b9f8;
+    border-style: none;
+    border-radius: 7px;
+    padding: 5px 5px;
+    justify-content: flex-start;
+    cursor: pointer;
+    color: #0e0e0e;
+}
+.country{
+    display: flex;
+    gap: 5px;
+}
+.checkbox{
+    width: 15px;
+    float: left;
+}
+h6{
+    color: rgb(0, 6, 10);
+    font-family:'Courier New', Courier, monospace ;
+}
+.signup>button{
+    cursor: pointer;
+    background-color: #c40805;
+    border-style: none;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 15px 75px;
+    border-radius: 20px;
+
+}
+.signup>button:hover{
+    background-color: rgb(2, 12, 9);
+}
+#select{
+    border: none;
+    background-color: rgb(129, 163, 163);
+}
+option{
+    border-style: none;
+    background-color: #ea8c20;
+}
